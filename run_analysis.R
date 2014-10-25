@@ -26,7 +26,7 @@
         X<-X%>%select(filteredFeatures$V1)
         
         ##STEP 3
-        from<-c(1,2,3,4,5,6)
+        from<-c(1:6)
         to<-c("WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS",
               "SITTING","STANDING","LAYING")
         
